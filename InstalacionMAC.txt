@@ -1,0 +1,18 @@
+Instalación de Matlab en MAC
+
+Dar doble click en el .dmg y seleccionar usar llave para la instalación
+
+Descomprimir el crack, CrackReadme!! -> readme.txt, copiar la llave y pegarla en el apartado, escoger la carpeta de instalacion, seleccionar todos los paquetes, y damos en instalar, la instalacion se ha completado, 
+
+Aplicaciones -> MATLAB_R2016b Seleccionar mostrar contenido del paquete
+Carpeta bin -> maci64
+
+Abrir en otra ventana
+
+CrackReadme!! y copiar el archivo libmwservices.dylib y pegarlo en maci64, seleccionar REMPLAZAR.
+
+Nos vamos a aplicaciones y abrimos MATLAB_R2016 y esperamos a que abra MATLAB, seleccionamos activar manualmente sin internet, seleccionar no tengo licencia y cerrar la ventana.
+
+Ejecutar el archivo Sierra locale patch.dmg, una vez abierto ejecutamos el programa R2016_patch_1465823 -> Aceptar y buscamos el icono de MATLAB -> Seleccionar.
+
+Volvemos a abrir MATLAB y seleccionamos la opcion de activar manualmente sin internet, Seleccionamos la primer opcion, si tengo licencia -> Browser y seleccionamos el archivo license_standalone.lic. ------> Listo!!!!! 

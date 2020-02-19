@@ -1,0 +1,8 @@
+function funcion_algoritmo_optimizacion(teta,m,h,y,x)
+    for i=1:m
+        for j=1:3
+            temp(j) := teta(j)-1*(h(i)-y(i))*x(j)
+        end
+        
+    end
+end

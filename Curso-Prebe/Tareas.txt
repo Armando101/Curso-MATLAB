@@ -1,0 +1,44 @@
+Lunes
+	**************************************************
+	Tarea escrita
+
+	¿Cómo pongo un comentario en MATLAB?
+	¿Cúal es la diferencia entre clc, clear y home?
+	¿Cómo genero un arreglo de números consecutivos del 1 al 100?
+
+	**************************************************
+	Array unidimensional
+
+	Cree un programa que dado un número "n" ingresado por el usuario genere un vector de tamaño n con números aleatorios enteros del 1 al 100. El programa tiene que mostrar los números impares y pares generados junto con la posición que ocupan en el vector. No ocupar más de 10 lineas de código. Ejemplo:
+
+	Ingrese un número 
+		10
+	Los número impares son: 
+    	0     0    59    55     0    29     0     0    39    57
+	Los números pares son:
+    	36    84     0     0    92     0    76    76     0     0
+
+	***************************************************
+    Arrays bidimensionales
+
+    Genere una matriz que simule a un tablero de ajedrez donde las casillas blancas estan representadas con 0's y las casillas negras con 1's. Máximo 5 líneas de código Ejemplo:
+
+     0     1     0     1     0     1     0     1
+     1     0     1     0     1     0     1     0
+     0     1     0     1     0     1     0     1
+     1     0     1     0     1     0     1     0
+     0     1     0     1     0     1     0     1
+     1     0     1     0     1     0     1     0
+     0     1     0     1     0     1     0     1
+     1     0     1     0     1     0     1     0
+
+     *************************************************
+    Programación
+
+    Elabore un programa que dado dos vectores X y Y realice un ajuste de mínimos cuadrados encontrando la recta que mejor se ajuste a los valores dados.
+
+    y=mx+b
+
+ m=\frac{N\sum_{i=1}^NX_iY_i-\sum_{i=1}^NX_i\sum_{i=1}^NY_i}{N\sum_{i=1}^NX_i^2-(\sum_{i=1}^NX_i)^2}
+ 
+    b=\frac{\sum_{i=1}^NY_i\sum_{i=1}^NX_i^2-\sum_{i=1}^NX_i\sum_{i=1}^NX_iY_i}{N\sum_{i=1}^NX_i^2-(\sum_{i=1}^NX_i)^2}

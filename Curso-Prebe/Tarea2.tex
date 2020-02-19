@@ -1,0 +1,102 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+
+\begin{document}
+\section{Tarea Escrita}
+	\begin{enumerate}		
+	\item 	¿Cómo pongo un comentario en MATLAB?
+	\item	¿Cúal es la diferencia entre clc, clear y home?
+	\item	¿Cómo genero un arreglo de números consecutivos del 1 al 100?
+	\end{enumerate}
+
+\section{Array unidimensional}
+	\subsection{Ejercicio 1}
+	Cree un programa que dado un número ``n"\ ingresado por el usuario genere un vector de tamaño n con números aleatorios enteros del 1 al 100. El programa tiene que mostrar los números impares y pares generados junto con la posición que ocupan en el vector. No ocupar más de 10 lineas de código. Ejemplo:\\\\
+	
+	Ingrese un número \\
+	10\\
+	Los número impares son: \\
+	0     0    59    55     0    29     0     0    39    57\\
+	Los números pares son:\\
+	36    84     0     0    92     0    76    76     0     0\\
+\subsection{Ejercicio 2}
+Se tienen dos vectores A=[2,3,6,8,10] y B=[3,6,9,12,15], calcule el vector C.
+\[
+C=\Big(\frac{A}{B}\Big)^2 + (B+A)^{(\frac{B-A}{A})}
+\]
+
+\subsection{Ejercicio 3}
+
+Demuestre que la serie numérica:
+\[
+	\sum_{n=1}^{\infty}\frac{1}{n^2}
+\]
+converge a $ \frac{\pi}{6} $, para hacerlo calcule la suma para:
+
+\begin{itemize}
+	\item n=50
+	\item n=1,000
+	\item n=10,000
+\end{itemize}
+Puede utilizar la función sum() para resolver este ejercicio.	
+\subsection{Ejercicio 4}
+
+Demuestre que la serie numérica:
+\[
+\sum_{n=1}^{\infty}\frac{-1^{(n+1)}}{n}
+\]
+converge a $ ln\ 2 $, para hacerlo calcule la suma para:
+
+\begin{itemize}
+	\item n=50
+	\item n=1,000
+	\item n=10,000
+\end{itemize}
+Puede utilizar la función sum() para resolver este ejercicio.	
+\section{Arrays bidimensionales}
+	
+	Genere una matriz que simule a un tablero de ajedrez donde las casillas blancas están representadas con 0's y las casillas negras con 1's. Máximo 5 líneas de código Ejemplo:\\\\
+	\begin{tabular}{cccccccc}
+	0 &    1  &   0   &  1 &    0  &   1 &    0 &    1\\
+	1 &    0 &    1  &   0   &  1 &    0 &    1 &    0\\
+	0 &    1 &    0   &  1 &    0     &1&     0&     1\\
+	1 &    0 &    1  &   0 &    1  &   0   &  1 &    0\\
+	0  &   1 &    0  &   1  &   0  &   1  &   0 &    1\\
+	1 &    0 &    1 &    0  &   1   &  0  &   1  &   0\\
+	0    & 1&     0   &  1 &    0  &   1  &   0 &    1\\
+	1  &   0  &   1&     0  &   1 &    0   &  1 &    0		
+	\end{tabular}\\\\
+\textbf{Nota:} No se puede usar la función repmat()
+	
+\section{Programación}
+\subsection{Ejercicio 1}
+	Elabore un programa que dado dos vectores X y Y realice un ajuste de mínimos cuadrados encontrando la recta que mejor se ajuste a los valores dados.
+	
+	$ y=mx+b $
+	\[
+	m=\frac{N\sum_{i=1}^NX_iY_i-\sum_{i=1}^NX_i\sum_{i=1}^NY_i}{N\sum_{i=1}^NX_i^2-(\sum_{i=1}^NX_i)^2}
+	\]
+	\[
+	b=\frac{\sum_{i=1}^NY_i\sum_{i=1}^NX_i^2-\sum_{i=1}^NX_i\sum_{i=1}^NX_iY_i}{N\sum_{i=1}^NX_i^2-(\sum_{i=1}^NX_i)^2}
+	\]
+\subsection{Ejercicio 2}
+Elabore un programa que dado un numero N, obtenga el resultado de la siguiente suma:
+\[
+	\sum_{i=1}^{n}i=1+2+3+4+...+n
+\]
+\textbf{Nota}: No se puede usar la función sum()
+\subsection{Ejercicio 3}
+Elabore un programa que dado un numero N, obtenga el resultado de la siguiente suma:
+\[
+\sum_{i=1}^{n}i^2=1^2+2^2+3^2+4^2+...+n^2
+\]
+\textbf{Nota}: No se puede usar la función sum() ni otra similar
+\subsection{Ejercicio 4}
+Usando RECURSIVIDAD elabore un programa que dado un número N, obtenga el resultado de la siguiente suma:
+\[
+\sum_{i=1}^{n}i^2=1^2*2^2*3^2*4^2*...*n^2
+\]
+
+\end{document}

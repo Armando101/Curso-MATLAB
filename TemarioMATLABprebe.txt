@@ -1,0 +1,37 @@
+Temario MATLAB prebe
+
+Lunes:
+	Introducción a MATLAB
+	Arreglos
+	Archivos Script
+	Programación en MATLAB
+
+Martes:
+	Gráficos bidimensionales
+	Gráficos tridimensionales
+	Curvas de ajuste
+	Interpolación
+
+
+Miércoles:
+	Análisis numérico
+	Cálculo simbólico
+
+Jueves:
+	¿Qué es Machine Learning?
+	Historia de la I.A
+	Tipos de clasificación de Algoritmos de Machine Learning
+	Regresión Lineal
+		Función de Coste(Pérdida)
+		Dataset, Train set, Test set
+		Overfitting y Underfitting
+		Gradiente de descenso
+
+Viernes:
+	k- Vecino Cercano
+		Matriz de confusión
+		Obtención de K
+
+	Regresión Logística
+		Función sigmoide
+		Frontera de decisión
